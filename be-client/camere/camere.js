@@ -6,6 +6,7 @@ const axios = require('axios');
 
 dotenv.config();
 
+
 const getCamere = async (request, response) => {
     try {
         var data = await repoCamere.getCamere();
